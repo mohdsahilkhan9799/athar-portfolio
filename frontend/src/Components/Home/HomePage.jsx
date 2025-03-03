@@ -49,21 +49,21 @@ const skills = [
 const educationDetails = [
   {
     id: 1,
-    title: 'B.Tech in Computer Science',
-    institution: 'Manav Rachna University, New Delhi',
-    duration: '2018 - 2022',
+    title: 'B.Tech ',
+    institution: 'Sir Chhotu Ram Institute of Engineering &Technology ',
+    duration: '2016 - 2020',
     image: campus,
     subtitle:"the structure and organization of content on a backned development",
     description:
-      'Completed an intensive program in Computer Science with a focus on modern web technologies and software development methodologies.',
+      'Completed an intensive program in B.Teach with a focus on modern  technologies and  development methodologies.',
   },
   {
     id: 2,
     title: 'Senior Secondary Education',
-    institution: 'Rehbar E Aam Public School',
-    duration: '2016 - 2018',
+    institution: ' Shikhar sr sec. School ',
+    duration: '2014 - 2016',
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ5tJufQp_UDfbSXMyh-_s7_uB2CxxOCaZKQ&s',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxcQrZEYJwY2-NYFZnv_JNXF8xSt_KkNEMSg&s',
       subtitle:"personalized instruction, active engagement, and consistent practice",
 
     description:
@@ -72,9 +72,9 @@ const educationDetails = [
   {
     id: 3,
     title: 'High School',
-    institution: 'Rehbar E Aam Public School',
-    duration: '2014 - 2016',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ5tJufQp_UDfbSXMyh-_s7_uB2CxxOCaZKQ&s',
+    institution: ' Shikhar sr sec. School ',
+    duration: '2012 - 2014',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxcQrZEYJwY2-NYFZnv_JNXF8xSt_KkNEMSg&s',
     subtitle:"use verbs such as “collaborated,” “cooperated” and “contributed to.” ",
 
     description:
@@ -217,36 +217,7 @@ const HomePage = () => {
       description:
         'A dynamic e-commerce platform for purchasing clothing and accessories. Built with Node.js, Nodemailer, and Cron jobs, it features real-time product listings, secure payment gateway integration, and automated order processing.',
     },
-    {
-      id: 5,
-      title: 'BFSI Skoch',
-      date: 'Unknown',
-      codeLink: '', // Code not specified
-      liveLink: 'https://bfsi.skoch.in/',
-      image: "https://bfsi.skoch.in/images/skoch-bfsi-award-design-image.png",
-      description:
-        'A website dedicated to the Banking, Financial Services, and Insurance (BFSI) sector, offering industry insights, case studies, and a comprehensive resource hub.',
-    },
-    {
-      id: 6,
-      title: 'ESG Skoch',
-      date: 'Unknown',
-      codeLink: '', // Code not specified
-      liveLink: 'https://esg.skoch.in/',
-      image: "https://esg.skoch.in/images/skoch-esg-award-design-image.png",
-      description:
-        'A platform focused on Environmental, Social, and Governance (ESG) initiatives. It delivers detailed reports, charts, and insights into sustainable business practices.',
-    },
-    {
-      id: 7,
-      title: 'Portfolio Website',
-      date: 'Oct 2023',
-      codeLink: '', // Code not specified
-      liveLink: 'https://mohdsahilportfolio.vercel.app/',
-      image: "https://mohdsahilportfolio.vercel.app/static/media/nav_logo.a5819e918c71eb4f5a8f.png",
-      description:
-        'A personal portfolio website showcasing projects and skills, built using React.js and Material UI.',
-    },
+
     {
       id: 8,
       title: 'S-Mart Multi-Vendor Platform',
@@ -258,15 +229,14 @@ const HomePage = () => {
         'A multi-vendor e-commerce platform supporting multiple vendor admins and a super admin. Features include robust inventory management, secure payment integration, and automated email notifications using Nodemailer and Cron jobs.',
     },
     {
-      id: 9,
-      title: 'Magnety',
+      id: 8,
+      title: 'Restaurant-Backend',
       date: 'Unknown',
       codeLink: '', // Code not specified
-      liveLink: 'https://magnety.vercel.app/',
-      image: "https://www.logomaker.com/api/main/images/1j+ojFVDOMkX9Wytexe43D6kh...6GrhRHmh...JwXs1M3EMoAJtlyMqh...Bq...fw4",
+      liveLink: 'https://Restaurant-Backend.vercel.app/',
+      image: "https://cdn.dribbble.com/users/547146/screenshots/3989879/attachments/912749/artboard_copy_2.png?resize=400x300&vertical=center",
       description:
-        'A dynamic web application showcasing innovative UI/UX design and modern web development techniques.',
-    },
+"Clean and re-set tables swiftly while putting guests at ease. Restock and replenish flatware, dishes, condiments, etc. Assist other team members by answering questions and helping out as needed to aid in the service of guests."    },
   ];
 
   // Modal state
@@ -393,29 +363,29 @@ const HomePage = () => {
             <div className="bg-light p-4 rounded shadow info-box mt-4" data-aos="zoom-in">
               <div className="row mb-2">
                 <div className="col-sm-4 fw-bold">Name:</div>
-                <div className="col-sm-8">MOHD SAHIL</div>
+                <div className="col-sm-8">MOHD ATHAR</div>
               </div>
               <div className="row mb-2">
                 <div className="col-sm-4 fw-bold">Phone:</div>
-                <div className="col-sm-8">+91 9720004494</div>
+                <div className="col-sm-8">+91 9719144184</div>
               </div>
               <div className="row mb-2">
                 <div className="col-sm-4 fw-bold">Age:</div>
-                <div className="col-sm-8">26 Years</div>
+                <div className="col-sm-8">25 Years</div>
               </div>
               <div className="row mb-2">
                 <div className="col-sm-4 fw-bold">Email:</div>
-                <div className="col-sm-8">sksahilkhan111111@gmail.com</div>
+                <div className="col-sm-8">mohdathar9719@gmail.com</div>
               </div>
               <div className="row mb-2">
                 <div className="col-sm-4 fw-bold">Position:</div>
-                <div className="col-sm-8">Software Engineer</div>
+                <div className="col-sm-8">Full Stack Web Developer</div>
               </div>
             </div>
 
             {/* Signature */}
             <div className="signature mt-4">
-              <p className="mb-0 fw-bold">Mohd Sahil</p>
+              <p className="mb-0 fw-bold">Mohd ATHAR</p>
             </div>
           </div>
         </div>
@@ -682,21 +652,21 @@ const HomePage = () => {
             <div className="contact-card">
               <FontAwesomeIcon icon="fa-solid fa-location-dot" size="2x" className="icon" />
               <h5>Address</h5>
-              <p>Chhatterpur New Delhi 110074</p>
+              <p>NOIDA SECTOR 62, India</p>
             </div>
           </div>
           <div className="col-md-4 mb-4">
             <div className="contact-card">
               <FontAwesomeIcon icon="fa-solid fa-phone" size="2x" className="icon" />
               <h5>Phone</h5>
-              <p>+91 9720004494</p>
+              <p>+91 9719144184</p>
             </div>
           </div>
           <div className="col-md-4 mb-4">
             <div className="contact-card">
               <FontAwesomeIcon icon="fa-solid fa-envelope" size="2x" className="icon" />
               <h5>Email</h5>
-              <p>sksahilkhan111111@gmail.com</p>
+              <p>mohdathar9719@gmail.com</p>
             </div>
           </div>
         </div>
@@ -768,7 +738,7 @@ const HomePage = () => {
       <div className="map-container mt-5" data-aos="fade-up" data-aos-delay="200">
           <iframe
             title="Location Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.2792252182176!2d77.17741497528395!3d28.50124567573666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1e23354518b5%3A0xd2d98ea1ecef657d!2sMagnety%20Salon!5e0!3m2!1sen!2sin!4v1740659266869!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28018.57213968286!2d77.33659953853697!3d28.62012444294469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5456ef36d9f%3A0x3b7191b1286136c8!2sSector%2062%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1740981389503!5m2!1sen!2sin" 
             width="100%"
             height="400"
             style={{ border: 0 }}
