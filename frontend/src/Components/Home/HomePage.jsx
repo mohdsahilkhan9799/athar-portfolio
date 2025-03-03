@@ -86,7 +86,7 @@ const certificatesData = [
   {
     id: 1,
     title: 'Full Stack Development',
-    institution: 'ABC Institute',
+    institution: 'IBM',
     date: 'January 2023',
     image: crt1,
     subtitle:"MongoDB, Express, React, and Node. js",
@@ -108,7 +108,7 @@ const certificatesData = [
   {
     id: 3,
     title: 'JavaScript Essentials',
-    institution: '123 Training',
+    institution: '24 Tech Training',
     date: 'May 2023',
     subtitle:"MongoDB, Express, React, and Node. js",
 
@@ -119,7 +119,7 @@ const certificatesData = [
   {
     id: 4,
     title: 'Mern Stack Certification',
-    institution: 'Design Institute',
+    institution: '24 Tech Training',
     date: 'July 2023',
     image: "https://s3.amazonaws.com/user-assets.codedamn.com/621b104c0eace80009eb5bb4/certificates/eb11f0b575b0a08e11d1c22e5c3d854c62c26f34.jpeg",
     subtitle:"MongoDB, Express, React, and Node. js",
