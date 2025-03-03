@@ -21,7 +21,7 @@ import netlifyIcon from '../../Logo/icone/download (14).png';
 import vercelIcon from '../../Logo/icone/download (14).png';
 import { Button, Modal } from 'bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import pdf from '../../Logo/pdf/MOHD-SAHIL-resume.pdf';
+// import pdf from '../../Logo/pdf/MOHD-SAHIL-resume.pdf';
 import myvideo from "../../Logo/0_Man_Singing_1080x1080.mp4"
 import { useForm, ValidationError } from '@formspree/react';
 

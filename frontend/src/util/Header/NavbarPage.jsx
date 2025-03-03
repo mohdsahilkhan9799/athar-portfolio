@@ -62,7 +62,7 @@ const NavbarPage = () => {
             rel="noopener noreferrer"
             className="navbar-brand"
           >
-            <img src="{logo}" alt="Logo" className="logo-left" />
+            <img src={logo} alt="Logo" className="logo-left" />
           </Link>
 
           {/* Mobile Menu Toggle */}
