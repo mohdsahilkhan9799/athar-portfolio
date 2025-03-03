@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Typewriter from 'typewriter-effect';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // AOS CSS
-import mohdSahilImg from '../../Logo/WhatsApp Image 2025-02-26 at 11.01.05 AM.jpeg';
+import mohdSahilImg from '../../Logo/WhatsApp Image 2025-03-03 at 10.54.33 AM.jpeg';
 import './HomePage.css';  // Custom CSS
 import reactIcon from '../../Logo/icone/image.png';  // Replace with your own icons
 import reduxIcon from '../../Logo/icone/download (1).png';
@@ -24,8 +24,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import pdf from '../../Logo/pdf/MOHD-SAHIL-resume.pdf';
 import myvideo from "../../Logo/0_Man_Singing_1080x1080.mp4"
 import { useForm, ValidationError } from '@formspree/react';
-
-import campus from "../../Logo/WhatsApp Image 2025-02-26 at 11.01.05 AM.jpeg";
+import pdf from "../../Logo/pdf/MOHD Athar-REUME.pdf.pdf (1).pdf"
+import campus from "../../Logo/WhatsApp Image 2025-03-03 at 10.54.33 AM.jpeg";
 import crt1 from "../../Logo/1733210149136.jpg";
 
 const skills = [
@@ -303,8 +303,8 @@ const HomePage = () => {
                 <Typewriter
                   options={{
                     strings: [
-                      'Hello, I’m Mohd Sahil',
-                      'I have 3 years of experience',
+                      'Hello, I’m Mohd Athar',
+                      'I have 2 years of experience',
                       'I am into Software Development',
                     ],
                     autoStart: true,
@@ -322,7 +322,7 @@ const HomePage = () => {
                 <button className="btn btn-primary me-3"onClick={(e) => handleMenuClick(e, "contact")}>Hire Me</button>
                 <button className="btn btn-outline-light">
                   <a
-                    href="{pdf}"
+                    href={pdf}
                     style={{ textDecoration: 'none', color: 'white' }}
                     target="_blank"
                     rel="noreferrer"
@@ -333,7 +333,7 @@ const HomePage = () => {
               </div>
 
               <div className="exp mt-4">
-                <p>5+ Years Experience | 50+ Projects Completed | 5+ Minstry | 20+ Corporate</p>
+                <p>2+ Years Experience | 10+ Projects Completed | 2+ Minstry | 8+ Corporate</p>
               </div>
             </div>
 
