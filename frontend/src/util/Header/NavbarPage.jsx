@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./NavbarPage.css"; // Custom CSS
-import logo from "../../Logo/my-logo.png";
+import logo from "../../Logo/download-removebg-preview (3).png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -143,7 +143,7 @@ const NavbarPage = () => {
             <div className="d-flex align-items-center textde">
               <div className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/mohd-sahil-a8762924b/"
+                  href="https://www.linkedin.com/in/mohd-athar-a6b605209/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-black text-center"
@@ -151,23 +151,16 @@ const NavbarPage = () => {
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>
                 <a
-                  href="https://github.com/mohdsahilkhan9799"
+                  href="https://github.com/Mohd-Athar"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-black text-center"
                 >
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
+         
                 <a
-                  href="https://www.facebook.com/profile.php?id=100006566191706"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-black text-center"
-                >
-                  <FontAwesomeIcon icon={faFacebookF} />
-                </a>
-                <a
-                  href="https://www.instagram.com/mohd_sahil_khan9799/"
+                  href="https://www.instagram.com/athar_almaz/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-black text-center"

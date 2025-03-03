@@ -2,7 +2,7 @@ import React from 'react';
 import './FooterPage.css'; // Custom CSS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faTwitter, faLinkedin,faGithub } from '@fortawesome/free-brands-svg-icons';
-import logo from "../../Logo/my-logo.png"
+import logo from "../../Logo/download-removebg-preview (3).png"
 
 const FooterPage = () => {
   return (
@@ -21,17 +21,16 @@ const FooterPage = () => {
             height={60} 
           />
         </div>
-        Mohd Sahil - Portfolio
+        Mohd Athar - Portfolio
       </h2>
-      <p>Chhattarpur, New Delhi (110074), India</p>
+      <p>NOIDA SECTOR 62, India</p>
     </div>
 
     {/* Contact Section */}
     <div className="footer-section">
       <h3>Contact Me</h3>
-      <p><i className="fas fa-phone"></i> Phone: (+91) 9720004494</p>
-      <p><i className="fas fa-envelope"></i> Email: sksahilkhan111111@gmail.com</p>
-      <p><i className="fas fa-globe"></i> <a href="https://mohdsahilportfolio.vercel.app/" target="_blank" rel="noopener noreferrer">Portfolio</a></p>
+      <p><i className="fas fa-phone"></i> Phone: (+91) 9719144184</p>
+      <p><i className="fas fa-envelope"></i> Email: mohdathar9719@gmail.com</p>
     </div>
 
     {/* Social Media Section */}
@@ -39,7 +38,7 @@ const FooterPage = () => {
       <h3>Follow Me</h3>
       <div className="social-icons1">
          <a
-                         href="https://www.linkedin.com/in/mohd-sahil-a8762924b/"
+                         href="https://www.linkedin.com/in/mohd-athar-a6b605209/"
                          target="_blank"
                          rel="noopener noreferrer"
                          className="text-white text-center"
@@ -47,23 +46,16 @@ const FooterPage = () => {
                          <FontAwesomeIcon icon={faLinkedin} />
                        </a>
                        <a
-                         href="https://github.com/mohdsahilkhan9799"
+                         href="https://github.com/Mohd-Athar"
                          target="_blank"
                          rel="noopener noreferrer"
                          className="text-white text-center"
                        >
                          <FontAwesomeIcon icon={faGithub} />
                        </a>
+
                        <a
-                         href="https://www.facebook.com/profile.php?id=100006566191706"
-                         target="_blank"
-                         rel="noopener noreferrer"
-                         className="text-white text-center"
-                       >
-                         <FontAwesomeIcon icon={faFacebookF} />
-                       </a>
-                       <a
-                         href="https://www.instagram.com/mohd_sahil_khan9799/"
+                         href="https://www.instagram.com/athar_almaz/"
                          target="_blank"
                          rel="noopener noreferrer"
                          className="text-white text-center"
@@ -77,7 +69,7 @@ const FooterPage = () => {
 
   {/* Footer Bottom */}
   <div className="footer-bottom mb-0">
-    <p>© 2025 Mohd Sahil. All Rights Reserved.</p>
+    <p>© 2025 Mohd Athar. All Rights Reserved.</p>
   </div>
 </footer>
 
